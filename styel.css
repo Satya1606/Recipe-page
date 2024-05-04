@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(246, 211, 147);
+  font-family: sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 50px;
+}
+header,
+footer {
+  margin: 50px;
+}
+.hover {
+  display: grid;
+  gap: 20px;
+  z-index: 1;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+img {
+  border-radius: 10px;
+  width: 650px;
+}
+.heading {
+  font-family: "Times New Roman", Times, serif;
+}
+.hover_2 {
+  background-color: rgba(244, 173, 239, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+}
+.hover_2 h3 {
+  color: purple;
+}
+.ingredients h1 {
+  color: rgb(140, 31, 31);
+  font-family: "Times New Roman", Times, serif;
+}
+.ingredients ul {
+  display: block;
+  margin-left: 20px;
+}
+.ingredients li {
+  padding: 8px;
+}
+
+.instructions h1 {
+  color: rgb(140, 31, 31);
+  font-family: "Times New Roman", Times, serif;
+}
+.instructions ol {
+  display: block;
+  margin-left: 20px;
+}
+.instructions li {
+  padding: 8px;
+}
+.table-details h1 {
+  color: rgb(140, 31, 31);
+  font-family: "Times New Roman", Times, serif;
+}
+.table-details table {
+  width: 100%;
+  border-spacing: 10px;
+}
+.table-details td {
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgb(193, 190, 190);
+}
